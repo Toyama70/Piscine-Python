@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Form</title>
+		<script type="text/javascript" src='/ex02/popup.js'></script>
+	</head>
+
+
+	<body>
+		<h1>Form to fill</h1>
+		<form>
+				<label for="firstname"> First name</label><br>
+				<input type="text" id="firstname" name="firstname"><br>
+				<label for="name"> Name</label><br>
+				<input type="text" id="name" name="name"><br>
+				<label for="email"> Email</label><br>
+				<input type="text" id="email" name="email"><br>
+				<label for="phone"> Phone</label><br>
+				<input type="text" id="phone" name="phone"><br>
+				<label for="age" > Age</label><br>
+				<input type="text" id="age" name="age"><br>
+				<input type="checkbox" id="student" name="student"><br>
+				<label for="student"> Student at 42 ?</label><br>
+				<input type="radio" id="gender_male" name="gender" value="Male">
+				<label for="gender_male"> Male</label><br>
+				<input type="radio" id="gender_female" name="gender" value="Female">
+				<label for="gender_female"> Female</label><br>
+				<input type="radio" id="gender_other" name="gender" value="Other">
+				<label for="gender_other"> Other</label><br>
+				<button type ="submit" onclick="displayFormContents();">Submit</button><br>
+		</form>
+	</body>
+
+</html>
